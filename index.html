@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
+    <script src="https://kit.fontawesome.com/87606e3646.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons+Outlined">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css" integrity="sha512-tS3S5qG0BlhnQROyJXvNjeEM4UpMXHrQfTGmbQ1gKmelCxlSEBUaxhRBj/EFTzpbP4RVSrpEikbmdJobCvhE3g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css" integrity="sha512-sMXtMNL1zRzolHYKEujM2AqCLUR9F2C4/05cdbxjjLSRvMQIciEPCQZo++nk7go3BtSuK9kfa/s+a4f4i5pLkw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="/assets/scss/style.css">
+    <title>Open Fasion</title>
+</head>
+
+<body style="width: auto;">
+    <div class="main-parent" style="height:978px;">   
+        <div  class="header nav-bar" style="height: 60px;">
+            <i id="Menu" class="fa-solid fa-bars-staggered fa-2xl"></i>  
+            <img src="/assets/images/Logo (1).png" alt="Open Fashion Logo"> 
+            <div class="wrap-search-cart">
+                <i class="fa-solid fa-magnifying-glass fa-2xl"></i>
+                <i id="Cart" class="material-icons-outlined" style="font-size: 40px;">shopping_bag</i>
+                <span class="cart-counter">1</span>
+            </div>     
+        </div>
+        <div class="prod-image d-flex justify-content-center ">
+            <div class="owl-carousel owl-theme custom1">
+                <div class="item"><img src="./assets/images/blackJacket1.jpg" alt="front beige jacket"></div>
+                <div class="item"><img src="./assets/images/blackJacket2.jpg" alt="back beige jacket"></div>
+                <div class="item"><img src="./assets/images/blackJacket3.jpg" alt="logo beige jacket"></div>
+                <div class="item"><img src="./assets/images/blackJacket4.jpg" alt="front zoom beige jacket"></div>
+            </div>
+        </div>
+
+        <div class="prod-info">
+            <h2>MOHAN</h2>
+            <h4>1996 Retro Nuptse Jacket</h4>
+            <h6>$120</h6>
+        </div>
+
+        <div class="item-picker">
+            <div class="color-picker">
+                <h6 class="m-0">Color</h6>
+                <span class="black-color"></span>
+                <span class="blue-color"></span>
+            </div>
+            <div class="size-picker">
+                <h6 class="m-0">Size</h6>
+                <span class="small-size">S</span>
+                <span class="medium-size">M</span>
+                <span class="large-size">L</span>
+            </div>
+        </div>
+
+        <footer class="footer" style="height: 60px; background-color: black; color: white; position: relative; bottom: 0;">
+            <div class="addBasket-wrapper d-flex align-items-center gap-4">
+                <i id="addItem" class="fa-solid fa-plus fa-xl"></i>
+                <h6 class="m-0" style="font-size: 20px;">ADD TO BASKET</h6>
+            </div>
+
+            <i id="heart" class="fa fa-heart fa-xl"></i>
+        </footer>
+    </div>
+    <div class="side-bar p-3" style="height:978px;">
+        <i id="Exit" class="fa-solid fa-x fa-xl"></i>
+        <div class="gender-wrapper py-3 d-flex gap-5">
+            <span class="select-gender women">WOMEN</span>
+            <span class="select-gender men">MEN</span>
+            <span class="select-gender kids">KIDS</span>
+        </div>
+        <div class="products-wrapper d-flex flex-column gap-4">
+            <span class="d-flex justify-content-between align-items-center">New<span class="fa fa-chevron-down"></span></span>
+            <span class="d-flex justify-content-between align-items-center">Apparel<span class="fa fa-chevron-down"></span></span>
+            <span class="d-flex justify-content-between align-items-center">Bag<span class="fa fa-chevron-down"></span></span>
+            <span class="d-flex justify-content-between align-items-center">Shoes<span class="fa fa-chevron-down"></span></span>
+            <span class="d-flex justify-content-between align-items-center">Beauty<span class="fa fa-chevron-down"></span></span>
+            <span class="d-flex justify-content-between align-items-center">Accessories<span class="fa fa-chevron-down"></span></span>
+        </div>
+        <div class="contact-info d-flex flex-column my-5 gap-4">
+            <span class="d-flex flex-row-reverse justify-content-end align-items-center gap-3">(786) 713-8616 <span class="fa fa-phone-flip fa-lg"></span></span>
+            <span class="d-flex flex-row-reverse justify-content-end align-items-center gap-4">Store locator<span class="fa fa-location-dot fa-lg"></span></span>
+        </div>
+    </div>
+
+    <div class="cart-page" style="height:auto">
+        <div class="cart-page-wrapper">
+            <i id="cartExit" class="fa-solid fa-x fa-xl my-2"></i>
+            
+            <h4 class="my-3" style="letter-spacing: 4px;">CART</h4>
+            <div class="full-cart">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-auto p-0">
+                            <img src="./assets/images/blackJacket1.jpg" alt="BlackJacket" style="height: 150px;">
+                        </div>
+                        <div class="col-auto p-0 mx-3 d-flex flex-column gap-3">
+                            <h4>MOHAN</h4>
+                            <h6>1996 Retro Nuptse Jacket</h6>
+                            <div class="d-flex p-0">
+                                <div class="plus-minus d-flex gap-4">
+                                    <i id="minusCart" class="fa-solid fa-minus fa-sm plus-minus-icon"></i>
+                                    <span class="counter">1</span>
+                                    <i id="plusCart" class="fa-solid fa-plus fa-sm plus-minus-icon"></i>
+                                </div>
+                            </div>
+                            <h6 class="price" style="font-size: 18px;">$120</h6>
+                        </div>
+                    </div>
+                </div>
+
+                <div id="cartPagePicker" class="item-picker p-0">
+                    <div class="color-picker">
+                        <h6 class="m-0">Color</h6>
+                        <span class="black-color"></span>
+                        <span class="blue-color"></span>
+                    </div>
+                    <div class="size-picker">
+                        <h6 class="m-0">Size</h6>
+                        <span class="small-size">S</span>
+                        <span class="medium-size">M</span>
+                        <span class="large-size">L</span>
+                    </div>
+                </div>
+
+                <div class="sub-total-price" style="border-top: 1px solid #b8b8b8;">
+                    <div class="sub-total-wrap d-flex justify-content-between my-3">
+                        <h5>SUB TOTAL</h5>
+                        <h5 id="subPrice" style="letter-spacing: 2px; color: #DD8560;">$120</h5>
+                    </div>
+                    <p style="color: #888;">*shipping charges, taxes and discount codes are calculated at the time of accounting.</p>
+                </div>
+            </div>
+        </div>
+        
+        
+
+        
+        <footer class="d-flex justify-content-center align-items-center gap-3" style="height: 60px; background-color: black; color: white;">
+            <i class="material-icons-outlined" style="font-size: 30px;">shopping_bag</i>
+            <h6 class="m-0" style="font-size: 20px;">BUY NOW</h6>
+        
+        </footer>
+    </div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.0/jquery.min.js" integrity="sha512-3gJwYpMe3QewGELv8k/BX9vcqhryRdzRMxVfq6ngyWXwo03GFEzjsUm8Q7RZcHPHksttq7/GFoxjCVUjkjvPdw==" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js" integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw==" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe" crossorigin="anonymous"></script>
+    <script src="/myscript.js"></script>
+</body>
+</html>
